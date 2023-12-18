@@ -1,6 +1,6 @@
 @import "colors";
 
-nav {
+.header {
   height: 5rem;
   padding: 2rem;
   display: flex;
@@ -9,7 +9,7 @@ nav {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.229);
   background-color: white;
 
-  > div {
+  > navbar-content {
     display: flex;
     align-items: center;
 
