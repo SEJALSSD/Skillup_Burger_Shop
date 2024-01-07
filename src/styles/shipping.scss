@@ -4,6 +4,7 @@
   background-color: $pink;
   width: 100%;
   height: 100vh;
+
   > main {
     height: 100%;
     background-color: white;
@@ -43,31 +44,33 @@
           font-size: 1rem;
         }
       }
-      
     }
   }
-}
 
-@media screen and (max-width: 600px) {
-  .shipping > main > form {
-    > div {
-      width: 100%;
-      > input,
-      > select {
+  @media screen and (max-width: 600px) {
+    .shipping > main > form {
+      > div {
         width: 100%;
+        > input,
+        > select {
+          width: 100%;
+        }
+      }
+
+      > button {
+        width: 100%;
+        background-color:$reddark;/* Dark Red */
+        color: $dark; /* Blue */
       }
     }
-
-    > button {
-      width: 100%;
-    }
   }
 }
+
 .link {
   display: inline-block;
   padding: 10px 20px;
-  background-color: $reddark;
-  color: #fff;
+  background-color: #8B0000; /* Dark Red */
+  color: #0000FF; /* Blue */
   border-radius: 5px;
   text-decoration: none;
   font-size: 18px;
@@ -77,6 +80,6 @@
 }
 
 .link:hover {
-  background-color:  $reddark;
+  background-color: #8B0000; /* Dark Red */
   text-decoration: none;
 }

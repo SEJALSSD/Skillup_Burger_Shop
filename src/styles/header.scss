@@ -9,12 +9,12 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.229);
   background-color: white;
 
-  > navbar-content {
+  .navbar-content {
     display: flex;
     align-items: center;
 
     > svg {
-      color: $red;
+      print-color-adjust: $red !important;
       font-size: 3rem;
     }
 
@@ -28,9 +28,9 @@
       }
 
       > svg {
-        color: $red;
+        print-color-adjust: $red !important;
         transition: inherit;
-        font-size: 1.5rem;
+        font-size: 2rem;
         &:hover {
           color: $lightdark;
         }
